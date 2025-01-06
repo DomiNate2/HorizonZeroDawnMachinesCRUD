@@ -1,142 +1,235 @@
 {
   "machines": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Watchers",
       "type": "Small",
       "description": "Watchers are small, agile machines with scanning capabilities. They are often seen in groups, making them dangerous.",
       "attributes": {
         "health": 300,
         "armor": "Light",
-        "weaknesses": ["Fire", "Frost"],
-        "abilities": ["Spot enemies", "Alert other machines"],
-        "weapons": ["Ranged laser"]
+        "weaknesses": [
+          "Tear",
+          "Frost"
+        ],
+        "abilities": [
+          "Spot enemies",
+          "Alert other machines"
+        ],
+        "weapons": [
+          "Ranged laser"
+        ]
       },
       "location": "Plains, near settlements"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Striders",
       "type": "Medium",
       "description": "Striders are fast, horse-like machines that often roam the wild. They can be ridden by the player.",
       "attributes": {
         "health": 600,
         "armor": "Medium",
-        "weaknesses": ["Electricity", "Fire"],
-        "abilities": ["Charge", "Ranged laser"],
-        "weapons": ["Laser", "Ramming attack"]
+        "weaknesses": [
+          "Electricity",
+          "Fire"
+        ],
+        "abilities": [
+          "Charge",
+          "Ranged laser"
+        ],
+        "weapons": [
+          "Laser",
+          "Ramming attack"
+        ]
       },
       "location": "Wide plains, roads"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Grazer",
       "type": "Small",
       "description": "Grazers are passive herbivores that can be found grazing peacefully in groups. They will flee when threatened.",
       "attributes": {
         "health": 200,
         "armor": "Light",
-        "weaknesses": ["Fire", "Electricity"],
-        "abilities": ["Flee", "Herbivorous"],
+        "weaknesses": [
+          "Fire",
+          "Electricity"
+        ],
+        "abilities": [
+          "Flee",
+          "Herbivorous"
+        ],
         "weapons": []
       },
       "location": "Plains, forests"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Broadhead",
       "type": "Medium",
       "description": "Broadheads are semi-aggressive herbivorous machines with large, powerful jaws. They are often found in herds.",
       "attributes": {
         "health": 700,
         "armor": "Medium",
-        "weaknesses": ["Electricity", "Fire"],
-        "abilities": ["Charge", "Ramming attack"],
-        "weapons": ["Laser"]
+        "weaknesses": [
+          "Electricity",
+          "Fire"
+        ],
+        "abilities": [
+          "Charge",
+          "Ramming attack"
+        ],
+        "weapons": [
+          "Laser"
+        ]
       },
       "location": "Plains, wetlands"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Thunderjaw",
       "type": "Large",
       "description": "Thunderjaws are massive, heavily armed machines resembling a T. rex. Known for their brute strength and devastating weaponry.",
       "attributes": {
         "health": 3000,
         "armor": "Heavy",
-        "weaknesses": ["Fire", "Tear", "Electricity"],
-        "abilities": ["Heavy laser attack", "Fired grenades", "Melee attack"],
-        "weapons": ["Plasma cannon", "Ranged rocket launcher"]
+        "weaknesses": [
+          "Fire",
+          "Tear",
+          "Electricity"
+        ],
+        "abilities": [
+          "Heavy laser attack",
+          "Fired grenades",
+          "Melee attack"
+        ],
+        "weapons": [
+          "Plasma cannon",
+          "Ranged rocket launcher"
+        ]
       },
       "location": "Desert, cliffs"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Stormbird",
       "type": "Flying",
       "description": "Stormbirds are large, predatory flying machines with the ability to unleash powerful lightning strikes.",
       "attributes": {
         "health": 2000,
         "armor": "Heavy",
-        "weaknesses": ["Fire", "Tear", "Electricity"],
-        "abilities": ["Lightning attack", "Flight", "Dive attack"],
-        "weapons": ["Lightning cannons"]
+        "weaknesses": [
+          "Fire",
+          "Tear",
+          "Electricity"
+        ],
+        "abilities": [
+          "Lightning attack",
+          "Flight",
+          "Dive attack"
+        ],
+        "weapons": [
+          "Lightning cannons"
+        ]
       },
       "location": "Mountains, highlands"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Behemoth",
       "type": "Large",
       "description": "Behemoths are enormous, heavily armored machines with the ability to create tremors and launch large rocks.",
       "attributes": {
         "health": 4000,
         "armor": "Heavy",
-        "weaknesses": ["Fire", "Tear", "Shock"],
-        "abilities": ["Ranged rock throw", "Ground stomp"],
-        "weapons": ["Rock launchers", "Plasma energy beam"]
+        "weaknesses": [
+          "Fire",
+          "Tear",
+          "Shock"
+        ],
+        "abilities": [
+          "Ranged rock throw",
+          "Ground stomp"
+        ],
+        "weapons": [
+          "Rock launchers",
+          "Plasma energy beam"
+        ]
       },
       "location": "Mountainous regions"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Snapmaw",
       "type": "Large",
       "description": "Snapmaws are massive, alligator-like machines that patrol waters and use their powerful jaws to crush enemies.",
       "attributes": {
         "health": 1200,
         "armor": "Medium",
-        "weaknesses": ["Fire", "Frost", "Tear"],
-        "abilities": ["Charge", "Water attacks", "Swallow enemies"],
-        "weapons": ["Snapping jaws"]
+        "weaknesses": [
+          "Fire",
+          "Frost",
+          "Tear"
+        ],
+        "abilities": [
+          "Charge",
+          "Water attacks",
+          "Swallow enemies"
+        ],
+        "weapons": [
+          "Snapping jaws"
+        ]
       },
       "location": "Swamps, lakes"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Deathbringer",
       "type": "Massive",
       "description": "Deathbringers are heavily armed, autonomous war machines capable of causing massive destruction.",
       "attributes": {
         "health": 5000,
         "armor": "Heavy",
-        "weaknesses": ["Fire", "Tear", "Electricity"],
-        "abilities": ["Plasma cannon", "Missile attacks", "Machine gun fire"],
-        "weapons": ["Machine gun", "Missile launchers", "Plasma cannons"]
+        "weaknesses": [
+          "Fire",
+          "Tear",
+          "Electricity"
+        ],
+        "abilities": [
+          "Plasma cannon",
+          "Missile attacks",
+          "Machine gun fire"
+        ],
+        "weapons": [
+          "Machine gun",
+          "Missile launchers",
+          "Plasma cannons"
+        ]
       },
       "location": "Destroyed cities"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Ravager",
       "type": "Medium",
       "description": "Ravagers are agile, aggressive machines that wield large, rotating saw blades as their primary weapon.",
       "attributes": {
         "health": 1000,
         "armor": "Heavy",
-        "weaknesses": ["Fire", "Electricity"],
-        "abilities": ["Melee attack", "Disruptor blast"],
-        "weapons": ["Saw blades", "Energy blast"]
+        "weaknesses": [
+          "Fire",
+          "Electricity"
+        ],
+        "abilities": [
+          "Melee attack",
+          "Disruptor blast"
+        ],
+        "weapons": [
+          "Saw blades",
+          "Energy blast"
+        ]
       },
       "location": "Forests, canyons"
     }
